@@ -1,81 +1,132 @@
 🐊 GrifoADB
 
-Android ADB Tool para Windows
+Android ADB Tool & Android Device Diagnostic Utility
 
-GrifoADB es una herramienta de consola desarrollada en Python para facilitar el uso de Android Debug Bridge (ADB) desde Windows mediante un menú sencillo.
+"Platform" (https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)
+"Python" (https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python)
+"ADB" (https://img.shields.io/badge/Android-ADB-3DDC84?style=for-the-badge&logo=android)
+"Fastboot" (https://img.shields.io/badge/Fastboot-Tools-4285F4?style=for-the-badge&logo=android)
+"GitHub" (https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
+"License" (https://img.shields.io/badge/License-Responsible%20Use-green?style=for-the-badge)
 
-Permite comprobar dispositivos, consultar información del teléfono, gestionar aplicaciones, realizar capturas de pantalla, reiniciar el dispositivo y otras operaciones ADB.
+---
+
+🐊 ¿Qué es GrifoADB?
+
+GrifoADB es una herramienta desarrollada en Python para facilitar el uso de ADB (Android Debug Bridge) desde Windows.
+
+Su objetivo es reunir diferentes comandos y herramientas de Android en una interfaz de consola sencilla, evitando tener que escribir manualmente cada comando ADB.
+
+---
+
+⚡ Características
+
+- 📱 Información del dispositivo
+- 🔋 Estado de batería
+- 💾 Información de almacenamiento
+- 🤖 Versión de Android
+- 📋 Modelo del dispositivo
+- 🔌 Detección de dispositivos ADB
+- 🔄 Reinicio del dispositivo
+- 🔧 Reinicio del servidor ADB
+- 📦 Lista de aplicaciones instaladas
+- 📸 Captura de pantalla
+- 🕘 Aplicaciones recientes
+- ⚙️ Acceso rápido a Ajustes
+- ▶️ Abrir YouTube
+- 🏠 Volver a la pantalla principal
+- 🚀 ADB + Fastboot
+- 🔌 Instalación del Google USB Driver
 
 ---
 
 🖥️ Plataforma
 
-Windows| Python| ADB| Fastboot
-🪟 Compatible| 🐍 3.x| 🤖 Incluido| ⚡ Incluido
+Actualmente desarrollado para:
 
-«Diseñado principalmente para Windows.»
+Windows 10 / Windows 11
+
+GrifoADB puede descargar automáticamente Android Platform-Tools, incluyendo:
+
+ADB
+Fastboot
+Google USB Driver
 
 ---
 
-✨ Características
+📱 Uso
 
-- 📱 Información del teléfono
-- 🔋 Estado de batería
-- 💾 Información de almacenamiento
-- 🤖 Versión de Android
-- 📋 Modelo del dispositivo
-- 🔄 Reinicio mediante ADB
-- 📦 Lista de aplicaciones instaladas
-- 📸 Capturas de pantalla
-- 🕘 Acceso a aplicaciones recientes
-- ▶️ Abrir YouTube
-- ⚙️ Abrir Ajustes
-- 🏠 Volver a la pantalla principal
-- 🔌 Comprobar dispositivos conectados
-- 🔧 Reiniciar el servidor ADB
-- 🚀 ADB y Fastboot incluidos
-- 🔌 Instalación del Google USB Driver
+Conecta un dispositivo Android mediante USB y activa:
+
+Opciones de desarrollador
+        ↓
+Depuración USB
+
+Después ejecuta GrifoADB y utiliza el menú:
+
+GrifoADB
+│
+├── Instalar ADB Driver
+├── Aplicaciones
+├── Telefono
+├── ADB
+└── Herramientas
+
+---
+
+⚠️ Restablecimiento de fábrica
+
+GrifoADB incluye una opción experimental de Restablecimiento de fábrica.
+
+«⚠️ Esta función puede eliminar los datos del dispositivo.»
+
+Utilízala únicamente en dispositivos propios o cuando tengas autorización para administrarlos.
+
+El comportamiento puede variar dependiendo del fabricante, versión de Android y permisos disponibles.
+
+---
+
+🔐 Uso responsable
+
+GrifoADB está diseñado para:
+
+- 🧪 Aprendizaje
+- 🎓 Educación
+- 🔧 Diagnóstico
+- 🛠️ Administración de dispositivos propios
+- 💻 Desarrollo y pruebas
+
+No utilices esta herramienta en dispositivos sin autorización.
+
+---
+
+🛠️ Tecnologías
+
+Python
+Android Debug Bridge (ADB)
+Fastboot
+Google USB Driver
+Windows
 
 ---
 
 📦 Instalación
 
-1. Clonar el repositorio
+Clona el repositorio:
 
 git clone https://github.com/TU-USUARIO/GrifoADB.git
 
-2. Entrar en la carpeta
+Entra al proyecto:
 
 cd GrifoADB
 
-3. Ejecutar
+Ejecuta:
 
 python grifoadb.py
 
-«Cambia "grifoadb.py" por el nombre real de tu archivo Python si es diferente.»
-
 ---
 
-🔌 Configurar el teléfono
-
-Para utilizar ADB:
-
-1. Activa las Opciones de desarrollador en tu teléfono.
-2. Activa Depuración USB.
-3. Conecta el teléfono al PC mediante USB.
-4. Acepta la autorización de depuración USB en el teléfono.
-5. Ejecuta GrifoADB.
-6. Entra en:
-
-ADB → Comprobar conexion
-
-También puedes utilizar:
-
-ADB → Ver dispositivos
-
----
-
-🛠️ Estructura del proyecto
+📂 Estructura
 
 GrifoADB/
 │
@@ -85,63 +136,25 @@ GrifoADB/
 │   ├── fastboot.exe
 │   └── ...
 │
-├── .gitignore
 ├── LICENSE
-└── README.md
-
-«La carpeta "ADB/" puede ser creada automáticamente por GrifoADB mediante la función de instalación.»
-
----
-
-⚠️ Restablecimiento de fábrica
-
-GrifoADB incluye una opción de Restablecimiento de fábrica.
-
-Herramientas
-└── Restablecimiento de fabrica
-
-Esta operación puede borrar los datos del dispositivo.
-
-Antes de utilizarla, asegúrate de tener una copia de seguridad de la información importante.
-
-«El comportamiento del restablecimiento puede variar según el fabricante, versión de Android y permisos disponibles. GrifoADB no garantiza que el comando funcione en todos los dispositivos.»
+├── README.md
+└── .gitignore
 
 ---
 
-🔐 Uso responsable
+🦅 Proyecto
 
-GrifoADB está pensado para utilizarse con dispositivos propios o dispositivos para los que tengas autorización.
+GrifoADB
+Android ADB Tool para Windows.
 
-No utilices ADB para acceder, modificar o eliminar información de dispositivos sin permiso.
+Version
 
----
-
-🌐 Tecnologías
-
-- 🐍 Python
-- 🤖 Android ADB
-- ⚡ Fastboot
-- 🪟 Windows
-- 🔌 Google USB Driver
+"v1.2"
 
 ---
 
-📋 Versión
+⭐ Apoya el proyecto
 
-GrifoADB v1.2
+Si GrifoADB te resulta útil, considera darle una ⭐ al repositorio.
 
----
-
-📄 Licencia
-
-Este proyecto utiliza la licencia indicada en el archivo ""LICENSE"" (LICENSE).
-
----
-
-⭐ Proyecto
-
-Si este proyecto te resulta útil, puedes darle una ⭐ al repositorio.
-
-GrifoADB — Android ADB Tool
-
-🐊 Simple · Portable · ADB · Windows
+Made with Python & Android ADB
