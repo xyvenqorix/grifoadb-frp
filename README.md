@@ -11,204 +11,151 @@
   <img src="https://img.shields.io/badge/Fastboot-Tools-4285F4?style=for-the-badge&logo=android" />
 </p>
 
-<p align="center">
-  <b>Herramienta ADB y Fastboot para diagnóstico, mantenimiento y administración de dispositivos Android.</b>
-</p>
+## ⚠️ IMPORTANTE — EJECUCIÓN
+
+> 🔴 **Se recomienda ejecutar GrifoADB como ADMINISTRADOR.**
+
+Para obtener el mejor funcionamiento, especialmente al instalar controladores, trabajar con `C:\ADB` y utilizar herramientas de Fastboot, **ejecuta el programa como administrador**.
+
+### ⭐ Opción recomendada
+
+**Se recomienda utilizar `GrifoADB.exe` en lugar del archivo `.py`.**
+
+El `.exe` es la opción más cómoda para utilizar la herramienta sin tener que abrir Python manualmente.
+
+**Clic derecho → `GrifoADB.exe` → `Ejecutar como administrador`**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/License-Open%20Source-lightgrey?style=flat-square" />
+  <b>Herramienta de diagnóstico y mantenimiento para dispositivos Android mediante ADB y Fastboot.</b>
 </p>
 
----
 
-## 📱 ¿Qué es GrifoADB?
+## 📦 ¿Qué es GrifoADB?
 
-**GrifoADB** es una herramienta de consola desarrollada en **Python para Windows** que reúne funciones de **ADB** y **Fastboot** en un solo programa.
+**GrifoADB** es una herramienta para Windows creada en Python que reúne diferentes funciones de **ADB y Fastboot** en una interfaz de consola sencilla.
 
-Está diseñada para facilitar tareas de diagnóstico, información del dispositivo, conexión ADB, herramientas Android y operaciones de mantenimiento.
+Está pensada para diagnóstico, mantenimiento y comunicación con dispositivos Android compatibles.
 
----
 
-## ✨ Características
+## 🛠️ Funciones
 
-### 🔌 ADB
+### 📱 ADB
 
-* 📱 Ver dispositivos conectados.
-* 🔗 Comprobar conexión ADB.
-* ▶️ Iniciar servidor ADB.
-* ⛔ Detener servidor ADB.
-* 🔄 Reiniciar servidor ADB.
-* ℹ️ Consultar versión de ADB.
-* 🔍 Diagnóstico básico del dispositivo.
+* Ver dispositivos conectados
+* Comprobar conexión ADB
+* Iniciar servidor ADB
+* Detener servidor ADB
+* Reiniciar servidor ADB
+* Consultar versión de ADB
+* Diagnóstico básico del dispositivo
 
-### 📲 Información del teléfono
+### 🔧 Aplicaciones
 
-* 📋 Información del dispositivo.
-* 📱 Modelo.
-* 🏭 Fabricante.
-* 🤖 Versión de Android.
-* 🔢 Nivel SDK.
-* 🔋 Estado de batería.
-* 💾 Almacenamiento.
-* 🔐 Número de serie.
-* ⚙️ Propiedades del sistema.
+* Abrir YouTube
+* Abrir Ajustes
+* Abrir navegador
+* Volver a la pantalla principal
+* Listar aplicaciones instaladas
 
-### 🛠️ Herramientas
+### 📊 Información del teléfono
 
-* 🔄 Reiniciar teléfono.
-* 🧰 Reiniciar en Recovery.
-* ⚡ Reiniciar en Bootloader.
-* 📸 Captura de pantalla.
-* 📊 Ver procesos.
-* ⚙️ Ver propiedades de Android.
+* Información completa del dispositivo
+* Modelo
+* Fabricante
+* Versión de Android
+* Nivel SDK
+* Estado de batería
+* Almacenamiento
+* Propiedades del sistema
 
-### 📦 Aplicaciones
+### 🔄 Reinicio y herramientas
 
-* ▶️ Abrir YouTube.
-* ⚙️ Abrir Ajustes.
-* 🌐 Abrir navegador.
-* 🏠 Volver a la pantalla principal.
-* 📋 Listar aplicaciones instaladas.
+* Reiniciar dispositivo
+* Reiniciar en Recovery
+* Reiniciar en Bootloader
+* Capturar pantalla
+* Ver procesos
+* Consultar propiedades Android
 
-### 🔐 Diagnóstico
+### 🔐 Diagnóstico FRP
 
-GrifoADB permite consultar información relacionada con el estado del dispositivo:
+* Comprobar conexión ADB
+* Consultar estado relacionado con FRP
+* Consultar estado del bootloader
+* Consultar Verified Boot
+* Consultar modelo
+* Consultar fabricante
+* Consultar número de serie
+* Consultar versión de Android
+* Consultar cuentas del dispositivo
+* Abrir Ajustes
+* Abrir configuración de cuentas
+* Reiniciar dispositivo
 
-* Estado de ADB.
-* Estado FRP disponible mediante propiedades del sistema.
-* Estado del bootloader.
-* Verified Boot.
-* Modelo y fabricante.
-* Número de serie.
-* Versión de Android.
-* SDK.
-* Build.
-* Información de cuentas disponible mediante ADB.
-
-> Los resultados dependen del fabricante, modelo y versión de Android.
+> ℹ️ Las funciones de diagnóstico solamente muestran información disponible para el dispositivo y los permisos proporcionados por Android.
 
 ### ⚡ Fastboot
 
-* 🔎 Detectar dispositivos Fastboot.
-* 🔄 Reiniciar mediante Fastboot.
-* 🛠️ Ejecutar operaciones de mantenimiento compatibles.
-* 📱 Comprobar conexión Fastboot.
+* Detectar dispositivos Fastboot
+* Reiniciar mediante Fastboot
+* Mantenimiento Fastboot
+* Funciones compatibles con dispositivos Motorola
+
+> ⚠️ Algunas operaciones de Fastboot pueden borrar datos. Lee siempre las advertencias mostradas por el programa antes de continuar.
 
 ---
 
-## 🛡️ Ejecución recomendada
-
-<p align="center">
-  <img src="https://img.shields.io/badge/RECOMENDADO-GrifoADB.exe-00D9FF?style=for-the-badge" />
-</p>
-
-Para usuarios normales se recomienda utilizar:
-
-**`GrifoADB.exe`**
-
-en lugar de ejecutar directamente el archivo `.py`.
-
-### 🔑 Ejecutar como administrador
-
-Se recomienda ejecutar `GrifoADB.exe` como **Administrador**, especialmente para las funciones relacionadas con:
-
-* Instalación de drivers.
-* Escritura en `C:\ADB`.
-* Instalación de componentes.
-* Determinadas operaciones de Windows.
-
-Para hacerlo:
-
-**Clic derecho → Ejecutar como administrador**
-
-> ⚠️ ADB no necesita necesariamente permisos de administrador para todas sus funciones. Los permisos elevados son especialmente importantes para la instalación de drivers y determinadas operaciones del sistema.
-
----
-
-## 📦 Requisitos
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows" />
-  <img src="https://img.shields.io/badge/USB-Connection-555555?style=for-the-badge&logo=usb" />
-  <img src="https://img.shields.io/badge/Android-Device-3DDC84?style=for-the-badge&logo=android" />
-</p>
-
-* Windows 10 / Windows 11.
-* Cable USB.
-* Dispositivo Android compatible.
-* ADB/Fastboot.
-* Python 3.x solamente si se utiliza el código fuente.
-
-Para utilizar ADB normalmente debes tener habilitada la **Depuración USB** y aceptar la autorización RSA en el teléfono cuando Android la solicite.
-
----
-
-## 📁 Estructura
+## 📁 Estructura recomendada
 
 ```text
 GrifoADB/
 │
-├── GrifoADB.py
+├── GrifoADB.exe
 │
-├── Driver/
-│   ├── ADB.zip
-│   ├── DPInst_x64.exe
-│   └── DPInst_x86.exe
-│
-└── README.md
+└── Driver/
+    ├── ADB.zip
+    ├── DPInst_x64.exe
+    └── DPInst_x86.exe
 ```
 
-El programa utiliza:
-
-```text
-C:\ADB\
-```
-
-para almacenar las herramientas ADB y Fastboot.
+El programa utiliza los archivos de la carpeta `Driver` para preparar ADB y los controladores.
 
 ---
 
-## 🚀 Ejecutar desde Python
+## 💻 Requisitos
 
-Si quieres ejecutar el código fuente:
+* Windows 10 / Windows 11
+* Cable USB compatible
+* Dispositivo Android compatible
+* Depuración USB activada para las funciones ADB
+* Controladores USB correspondientes al dispositivo
+* Permisos de administrador recomendados
 
-```text
-python GrifoADB.py
-```
-
-También puedes utilizar:
-
-```text
-py GrifoADB.py
-```
+Para Fastboot, el dispositivo debe encontrarse en un modo compatible con Fastboot.
 
 ---
 
-## 📦 Crear GrifoADB.exe
+## 🚀 Uso rápido
 
-Para crear un ejecutable de Windows:
+### 1️⃣ Descargar GrifoADB
 
-```text
-pyinstaller --onefile --console --name GrifoADB GrifoADB.py
-```
+Descarga la versión disponible del proyecto.
 
-El resultado estará en:
+### 2️⃣ Ejecutar como administrador
 
-```text
-dist\GrifoADB.exe
-```
-
-Para incluir la carpeta `Driver`:
+Haz clic derecho sobre:
 
 ```text
-pyinstaller --onefile --console --name GrifoADB --add-data "Driver;Driver" GrifoADB.py
+GrifoADB.exe
 ```
 
----
+y selecciona:
 
-## 🔧 Instalación de ADB
+```text
+Ejecutar como administrador
+```
+
+### 3️⃣ Instalar ADB
 
 Desde el menú principal:
 
@@ -216,125 +163,100 @@ Desde el menú principal:
 1. Instalar ADB Driver
 ```
 
-GrifoADB busca:
-
-```text
-Driver\ADB.zip
-```
-
-y prepara:
+El programa preparará ADB en:
 
 ```text
 C:\ADB
 ```
 
-También puede ejecutar el instalador de drivers correspondiente a la arquitectura de Windows.
+### 4️⃣ Conectar el teléfono
+
+Conecta el dispositivo mediante USB.
+
+Si Android muestra:
+
+```text
+¿Permitir depuración USB?
+```
+
+acepta la autorización correspondiente.
+
+### 5️⃣ Comprobar conexión
+
+En GrifoADB:
+
+```text
+ADB
+→ Ver dispositivos
+```
+
+Si el dispositivo aparece correctamente, ADB está funcionando.
 
 ---
 
-## 🖥️ Menú principal
+## 🧰 Ejecutar desde Python
+
+También puedes ejecutar la versión `.py` directamente si tienes Python instalado.
 
 ```text
-╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║ GRIFOADB                                             ║
-║ ANDROID ADB TOOL                                     ║
-║                                                      ║
-║ v1.0                                                 ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-
-1. Instalar ADB Driver
-2. Aplicaciones
-3. Telefono
-4. ADB
-5. Herramientas
-6. FRP
-7. Mantenimiento Fastboot
-
-0. Salir
+python GrifoADB.py
 ```
+
+Sin embargo:
+
+> ⭐ **Para un uso normal se recomienda `GrifoADB.exe`.**
+
+El `.exe` evita tener que ejecutar manualmente el script mediante Python.
+
+---
+
+## 🔐 Permisos de administrador
+
+GrifoADB puede necesitar permisos elevados para determinadas tareas de Windows, especialmente:
+
+* Instalación de controladores
+* Escritura en `C:\ADB`
+* Ejecución de determinadas herramientas del sistema
+* Operaciones relacionadas con Fastboot
+
+Por eso:
+
+> 🛡️ **Se recomienda ejecutar siempre `GrifoADB.exe` como administrador para obtener el mejor funcionamiento.**
 
 ---
 
 ## ⚠️ Advertencia
 
-Algunas funciones pueden modificar el estado del dispositivo o eliminar información.
+GrifoADB es una herramienta de diagnóstico y mantenimiento.
 
-Antes de utilizar funciones de mantenimiento, asegúrate de comprender qué operación vas a ejecutar.
+Algunas operaciones pueden modificar el estado del dispositivo o eliminar información.
 
-Especialmente:
+**Antes de utilizar funciones de borrado o mantenimiento, asegúrate de que el dispositivo y la operación sean correctos.**
 
-```text
-fastboot -w
-```
-
-puede borrar los datos del dispositivo.
-
-**Utiliza estas funciones únicamente en dispositivos que tengas autorización para administrar.**
+No ejecutes comandos de borrado si no estás seguro de lo que hacen.
 
 ---
 
-## 🧰 Tecnologías
+## 📌 Compatibilidad
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,windows,android" alt="Technologies" />
-</p>
+La disponibilidad de determinadas funciones depende de:
 
-* Python 3
-* ADB
-* Fastboot
-* Windows
-* Android Debug Bridge
+* Modelo del dispositivo
+* Fabricante
+* Versión de Android
+* Estado del bootloader
+* Permisos ADB
+* Controladores instalados
+* Soporte del fabricante para ADB/Fastboot
 
----
-
-## 📊 Estado del proyecto
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GrifoADB-v1.0-00D9FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" />
-</p>
-
-🚧 **Proyecto en desarrollo**
-
-Se pueden añadir nuevas funciones y mejoras en futuras versiones.
+No todas las funciones funcionan en todos los dispositivos.
 
 ---
 
-## 👨‍💻 Autor
+## 🦅 GrifoADB
 
 <p align="center">
-  <b>Rodol / Rodol_UGC</b>
-</p>
-
-<p align="center">
-  🦅 <b>GrifoADB</b>
-</p>
-
-<p align="center">
-  Android ADB Tool
-</p>
-
----
-
-## ⭐ Contribuciones
-
-Las ideas, mejoras y reportes de errores son bienvenidos.
-
-Si encuentras un problema:
-
-1. Comprueba que el dispositivo está conectado.
-2. Comprueba que ADB funciona correctamente.
-3. Revisa el mensaje mostrado por GrifoADB.
-4. Si continúa el problema, abre un Issue indicando los pasos para reproducirlo.
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=GrifoADB;Android+ADB+Tool;Built+with+Python;Made+for+Android+Diagnostics" alt="GrifoADB" />
-</p>
-
-<p align="center">
-  🦅 <b>GrifoADB</b> — ADB & Fastboot Utility
+  <b>Android ADB & Fastboot Utility</b>
+  <br>
+  <sub>Built with Python 🐍</sub>
 </p>
