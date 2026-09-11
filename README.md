@@ -6,6 +6,8 @@
 
 ### Creador de contenido UGC & Desarrollador
 
+[![Website](https://img.shields.io/badge/Website-xyvenqorix.vercel.app-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://xyvenqorix.vercel.app)
+
 </div>
 
 ---
@@ -18,7 +20,7 @@ Soy **Rodol**, creador de contenido UGC y desarrollador. Me gusta crear proyecto
 * 🎮 Videojuegos y tecnología
 * 🐧 Linux & Windows
 * 🛠️ Soporte y soluciones informáticas
-* 🚀 Siempre aprendiendo y creando
+* 🚀 Siempre creando y aprendiendo
 
 ---
 
@@ -36,45 +38,6 @@ Soy **Rodol**, creador de contenido UGC y desarrollador. Me gusta crear proyecto
 
 <a href="https://github.com/xyvenqorix/NOMBRE-DEL-REPO">
 <img src="https://img.shields.io/badge/El_Laurel-Restaurante-8B4513?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</div>
-
----
-
-## 🧰 Tecnologías
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white">
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-
-</div>
-
----
-
-## 🌐 Encuéntrame
-
-<div align="center">
-
-<a href="https://instagram.com/rodol_ugc">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-</a>
-
-<a href="https://xyvenqorix.vercel.app">
-<img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
-
-<a href="https://linktr.ee/rodol_ugc">
-<img src="https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white">
 </a>
 
 </div>
