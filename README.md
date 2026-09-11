@@ -1,51 +1,74 @@
-<div align="center">
+<div align="center">🐊 Grifo ADB FRP
 
-<img src="./gitartwork.svg" width="100%">
+Herramienta para gestión ADB y dispositivos Android
 
-# 👋 Hola, soy XYVENQORIX
-
-### Creador de contenido UGC & Desarrollador
-
-[![Website](https://img.shields.io/badge/Website-xyvenqorix.vercel.app-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://xyvenqorix.vercel.app)
-
-</div>
+Grifo ADB FRP es una herramienta enfocada en facilitar tareas de diagnóstico, gestión y mantenimiento de dispositivos Android mediante ADB (Android Debug Bridge).
 
 ---
 
-## 👨‍💻 Sobre mí
+⚡ Características
 
-Soy **Rodol**, creador de contenido UGC y desarrollador. Me gusta crear proyectos, experimentar con tecnología y convertir ideas en proyectos reales.
-
-* 💻 Desarrollo web y aplicaciones
-* 🎮 Videojuegos y tecnología
-* 🐧 Linux & Windows
-* 🛠️ Soporte y soluciones informáticas
-* 🚀 Siempre creando y aprendiendo
-
----
-
-## 🚀 Proyectos
-
-<div align="center">
-
-<a href="https://github.com/xyvenqorix/PokeRed3D">
-<img src="https://img.shields.io/badge/Gen_1_Pokémon_3D-HD-7B61FF?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-<a href="https://github.com/xyvenqorix/KMwind-microsoft">
-<img src="https://img.shields.io/badge/KMwind-Microsoft-0078D4?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-<a href="https://github.com/xyvenqorix/NOMBRE-DEL-REPO">
-<img src="https://img.shields.io/badge/El_Laurel-Restaurante-8B4513?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</div>
+- 🔌 Detección de dispositivos mediante ADB
+- 📱 Información del dispositivo conectado
+- 🛠️ Herramientas de mantenimiento Android
+- 💻 Interfaz sencilla y fácil de utilizar
+- ⚙️ Funciones ADB integradas
+- 🚀 Proyecto desarrollado como parte del ecosistema Grifo
 
 ---
 
-<div align="center">
+🐊 Ecosistema Grifo
 
-### ⚡ Creando. Aprendiendo. Experimentando.
+Grifo ADB FRP forma parte de un conjunto de proyectos y herramientas desarrollados bajo la marca Grifo.
+
+Proyecto| Descripción
+🐊 Grifo ADB FRP| Herramientas ADB para dispositivos Android
+🌐 Grifo Net| Plataforma y servicios del ecosistema Grifo
+💾 MIROMUSB| Herramienta para monitorización de dispositivos USB
+
+---
+
+💻 Requisitos
+
+- Windows 10 / 11
+- Dispositivo Android
+- Cable USB
+- Drivers ADB correspondientes
+- Depuración USB habilitada cuando sea necesaria
+
+---
+
+🚀 Uso
+
+1. Conecta el dispositivo Android mediante USB.
+2. Instala los controladores necesarios.
+3. Abre Grifo ADB FRP.
+4. Comprueba que el dispositivo sea detectado.
+5. Selecciona la herramienta que necesites.
+6. Sigue las instrucciones mostradas por la aplicación.
+
+«⚠️ Utiliza la herramienta únicamente en dispositivos que sean tuyos o para los que tengas autorización para realizar tareas de mantenimiento.»
+
+---
+
+🛠️ Desarrollo
+
+Proyecto desarrollado por Rodol / XYVENQORIX.
+
+Forma parte de mi trabajo de desarrollo de herramientas, aplicaciones y soluciones informáticas.
+
+---
+
+📌 Estado
+
+En desarrollo 🚧
+
+El proyecto puede recibir nuevas funciones, mejoras y correcciones con el tiempo.
+
+---
+
+<div align="center">🐊 GRIFO
+
+Creando herramientas. Resolviendo problemas.
 
 </div>
